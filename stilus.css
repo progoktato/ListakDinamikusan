@@ -1,0 +1,35 @@
+main {
+    background-color: blanchedalmond;
+    width: 25em;
+    border: 5px darkred solid;
+    padding: 0em 2em;
+}
+
+nav>ul>li {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: green;
+    color: yellow;
+    padding: 0.2em 0.7em;
+    cursor: grab;
+}
+
+nav>ul>li:hover {
+    background-color: rgb(13, 33, 13);
+}
+
+main ul {
+    list-style: none;
+}
+
+/* Ezeknek a szelektoroknak a tartalmán változtathat! */
+.sajat-kijeloles {
+    background-color: rgb(80, 62, 36);
+    color: blanchedalmond;
+    list-style-image: url("pipa.png");
+}
+
+/* Opcionális arra az esetre, ha a ki NEM jelölt esetre szeretnánk design-t kialakítani */
+main ul>li {
+    line-height: 1.5em;
+}

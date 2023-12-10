@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listák dinamikus programozása</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <header>
+        <h1>Feladat</h1>
+        Adott két lista a lentebb megadott elemekkel.
+        <ol>
+            <li>Kattintásra jelölje ki valamilyen módon az li elemet, újbóli kattintásra pedig szüntesse meg a
+                kijelölést!</li>
+            <li>Dupla kattintásra a kiválasztott elemet vegye ki az aktuális listából és helyezze át a másik lista
+                végére úgy, hogy megtartsa a kijelölési állapotát!</li>
+        </ol>
+        <p><strong>Megjegyzések:</strong></p>
+        <ul>
+            <li>
+                Minden kiválasztás (szelektor) úgy működjön, hogy csak a szóbanforgó két listára vonatkozzon! Ha
+                az oldalon van további lista azokat ne érintse! Feltételezheti, hogy a main-ben csak ez a két lista szerepel.
+            </li>
+            <li>
+                A HTML oldalon semmilyen módosítást nem végezhet!
+            </li>
+            <li>
+                A CSS oldalon pedig csak a megjelölt helyeken módosíthat és bővíthet!
+            </li>
+        </ul>
+
+        <h3>Ötletek kijelölésre:</h3>
+        <ul>
+            <li>Háttérszín változtatás</li>
+            <li>Keretezés</li>
+            <li>Listaelem képelemének változtatása</li>
+        </ul>
+    </header>
+    <main>
+
+        <h3>Üzlet polcán</h3>
+        <ul id="polc">
+            <li>Barack</li>
+            <li>Körte</li>
+            <li>Kajszi</li>
+            <li>Szilva</li>
+        </ul>
+
+        <h3>Kosárban</h3>
+        <ul id="kosar">
+            <li>Mandarin</li>
+            <li>Birs</li>
+            <li>Őszibarak</li>
+        </ul>
+
+    </main>
+    <footer>
+        <nav>
+            <h3>Diák megoldások:</h3>
+            <ul>
+                <li>Első</li>
+                <li>Második</li>
+                <li>Harmadik</li>
+                <li>Negyedik</li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- <script src="kod.js"></script> -->
+    <script src="kod-tomor.js"></script>
+</body>
+
+</html>
