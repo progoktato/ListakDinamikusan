@@ -33,6 +33,11 @@ lista_elemek.forEach(
     }
 );
 */
+//Hogyan értelmezzük? 
+// A forEach végigjárja az összes elemet (amin meghívjuk) és minden elemmel elvégez valamilyen tevékenységet.
+// Ebben az esetben minden elemmel (listaelem) lefuttat egy névtelen függvényt.
+// Azért névtelen, mivel nincs a fgv-nek neve és a function szó sem szerepel. Egyedül a fgv törzse van meg a {} között.
+// Ha a törzs egyetlen utasításból áll, akkor a {} is elhagyható!
 
 //A paraméter egy PointerEvent objektum, amit minden függvény megkap amit az eseméynkezelő meghív.
 //Az objektum számos hasznos információt hordoz az esemény létrejöttével kapcsolatosan
